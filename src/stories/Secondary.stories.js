@@ -1,8 +1,8 @@
 import { Secondary } from './Secondary'
 
 export default {
-  title: 'Buttons/Secondary',
-  commponent: Secondary,
+  title: 'code/Secondary',
+  component: Secondary,
   parameters: {
     layout: 'centered'
   },
@@ -20,7 +20,7 @@ export const Primary = {
   },
 };
 
-export const Secondary1 = {
+export const Secondaryone = {
   args: {
     label: 'Button',
   },
@@ -39,3 +39,4 @@ export const Small = {
     label: 'Button',
   },
 };
+
