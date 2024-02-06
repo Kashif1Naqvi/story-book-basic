@@ -1,0 +1,38 @@
+.storybook-input  {
+  padding: 10px;
+  margin: 10px;
+}
+.storybook-position--left {
+  text-align: left;
+}
+.storybook-position--right {
+  text-align: right;
+}
+.storybook-position--center {
+  text-align: center;
+}
+
+
+input {
+  width: 40%;
+  padding: 2%;
+  border-radius: 10px 10px;
+  border-style: groove;
+}
+
+.storybook-input input {
+  border: 1px solid rgb(233, 49, 49);
+  color: rgb(233, 49, 49);
+}
+.storybook-position--left input{
+  border: 1px solid rgb(243, 11, 11);
+  color: rgb(156, 116, 116);
+}
+.storybook-position--right input{
+  border: 1px solid rgb(83, 13, 13);
+  color: rgb(199, 61, 61);
+}
+.storybook-position--center input{
+  border: 1px solid rgb(61, 49, 233);
+  color: rgb(49, 113, 233);
+}
